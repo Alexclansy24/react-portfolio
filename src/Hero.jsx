@@ -12,7 +12,7 @@ const Hero = () => {
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2">
-                <div className="flex flex-col items-center pl-12 lg:items-start">
+                <div className="flex flex-col items-center lg:items-start lg:pl-12 ">
                     <motion.h1 
                         variants={container(0)}
                         initial="hidden"
@@ -25,7 +25,7 @@ const Hero = () => {
                         variants={container(0.3)}
                         initial="hidden"
                         animate="visible"
-                        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent ">
+                        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
                         Full Stack Developer        
                     </motion.span>
                     <motion.p 
