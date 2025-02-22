@@ -15,7 +15,7 @@ const Projects = () => {
                             transition={{duration:0.5,delay:0.3}}
                             className="w-full lg:w-1/4 mb-2 ">
                             <span className="mb-2">
-                                <img src={project.image} alt={project.title} className="w-1/2 lg:align-middle"></img>
+                                <a href="https://food-delivery-frontend-ihvh.onrender.com/"><img src={project.image} alt={project.title} className="w-1/2 lg:align-middle"></img></a>
                             </span>
                         </motion.div >
                         <motion.div                         

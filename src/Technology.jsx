@@ -1,9 +1,9 @@
 import {RiReactjsLine} from "react-icons/ri";
-import {TbBrandNextjs} from "react-icons/tb";
+import {FaPython} from "react-icons/fa";
 import {SiMongodb} from "react-icons/si";
-import {DiRedis} from "react-icons/di";
+import {FaDatabase} from "react-icons/fa";
 import {FaNodeJs} from "react-icons/fa";
-import {BiLogoPostgresql} from "react-icons/bi";
+import {TbBrandCpp} from "react-icons/tb";
 import { motion } from "framer-motion"
 
 
@@ -39,7 +39,7 @@ const Technology = () => {
                 initial="initial"
                 whileInView="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
-                <TbBrandNextjs className="text-7xl"/>
+                <FaPython className="text-7xl"/>
                 </motion.div>
 
                 <motion.div 
@@ -55,7 +55,7 @@ const Technology = () => {
                 initial="initial"
                 whileInView="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
-                <DiRedis className="text-7xl text-red-700"/>
+                <FaDatabase className="text-7xl text-red-700"/>
                 </motion.div>
 
                 <motion.div 
@@ -71,7 +71,7 @@ const Technology = () => {
                 initial="initial"
                 whileInView="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
-                <BiLogoPostgresql className="text-7xl text-sky-700"/>
+                <TbBrandCpp className="text-7xl text-sky-700"/>
                 </motion.div>
                 
 
