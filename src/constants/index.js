@@ -43,7 +43,7 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication. Wait for few seconds and refresh the page till the products shows on the page. ",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB","Express"],
   },
  /* {
