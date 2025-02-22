@@ -13,10 +13,10 @@ const Navbar = () => {
             <img className=" m-2 w-13" src={logo} alt="logo"/>
         </div>
         <div className=" m-8 flex justify-around gap-4  ">
-        <FaLinkedin className="size-7 cursor-pointer"></FaLinkedin>
-        <FaGithub className="size-7 cursor-pointer"></FaGithub>
-        <FaSquareXTwitter className="size-7 cursor-pointer"></FaSquareXTwitter>
-        <FaInstagram className="size-7 cursor-pointer"></FaInstagram>
+        <a href="https://www.linkedin.com/in/rakesh-paramanick-551a78229/"><FaLinkedin className="size-7 cursor-pointer"></FaLinkedin></a>
+        <a href="https://github.com/Alexclansy24"><FaGithub className="size-7 cursor-pointer"></FaGithub></a>
+        <a href="https://x.com/syncwithRakesh"><FaSquareXTwitter className="size-7 cursor-pointer"></FaSquareXTwitter></a>
+        <a><FaInstagram className="size-7 cursor-pointer"></FaInstagram></a>
 
         </div>
     </nav>
