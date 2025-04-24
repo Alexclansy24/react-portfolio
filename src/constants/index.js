@@ -45,6 +45,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication. Wait for few seconds and refresh the page till the products shows on the page. ",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB","Express"],
+    anchor:"https://food-delivery-frontend-ihvh.onrender.com/",
   },
  /* {
     title: "Task Management App",
@@ -59,6 +60,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React","Tailwind"],
+    anchor:"/",
   },
   /*{
     title: "Blogging Platform",
